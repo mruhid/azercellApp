@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color:#A555EC;
+    --second-color:#ffac38;
+    --text-color:#33186B;
+    --gradient:lianer-gradient(#fe5b3d,#ffac38);
+}
+html::-webkit-scrollbar{
+width: 0.5rem;
+
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+
+
+}
+html::-webkit-scrollbar-thumb{
+
+background: var(--main-color);
+border-radius: 5rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #A6D0DD ;
+}
+header .head1{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #A6D0DD;
+    padding: 15px 100px;
+    transition: background-color 0.5s ease;
+}
+body.scrolled .head1 {
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease;
+
+  }
+.head1  .menu .navbar{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.head1 span{
+    text-align: center;
+    align-items: censter;
+    align-self: center;
+    margin: 5px 17px;
+    font-size: 17px;
+    color: #33186B;
+
+}
+.head1 i {
+    font-size: 27px;
+   
+    color: #33186B;
+    
+}
+.logo img{
+    height: 40px;
+    width: 120px;  
+
+}
+.tools .bx{
+    padding: 6px;
+    background-color: white;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+
+}
+
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#e3f7ff ;
+    margin: 80px 300px 30px 300px;
+    padding: 30px;
+    border-radius: 1.1rem;
+}
+.head2 .bx{
+    font-size: 27px;
+    color: #33186B;
+
+}
+.navbar li{
+    text-align: center;
+    padding: 8px 13px;
+    border-radius: 1.7rem;
+}
+.Home{
+    background-color: white;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.div{
+    margin: 16px 20px;
+    width: 55%;
+    border-radius:1.1rem;
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.body .balans-count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.body .balans-count .count{
+    display: flex;
+    flex-direction: column;
+   
+}
+.plus .bx{
+    background-color: white;
+    font-size: 55px;
+    color: #A555EC; 
+}
+.text1{
+    font-weight: 500;
+    font-size: 34px ;
+}
+.text2{
+    font-weight: 590;
+    font-size: 20px;
+}
+.Get-internet-packs{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.Get-internet-packs div{
+    margin: 6px 4px;
+}
+.span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.italic{
+    font-size: 17px;
+    color: #646669;
+}
+.divButton{
+    background-color: #A555EC;
+    padding: 5px 10px;
+    border-radius: 1.3rem;
+    
+}
+.divButton a{
+    color: white;
+}
+.Qr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Qr div{
+    margin: 6px;
+}
+.stores{
+    display: flex;
+    flex-direction: column;
+}
+.store{
+    background-color: black;
+    margin: 4px 1px;
+    padding: 6px 10px;
+    border-radius: 1.7rem;
+
+    
+}
+.store img{
+ width: 120px;
+ height: 27px;
+}
+
+.roller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #A555EC;
+}
+.roller div{
+    margin: 10px 5px;
+}
+.roller .spin{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.roller span{
+    color: white;
+    margin:1px 11px;
+}
+.roller .spin .btn{
+    background-color: #E5E1DA;
+    text-align: center;
+    border-radius: 1.3rem;
+    padding: 4px 7px;
+    margin: 25px 11px 8px 11px;
+    color: #A555EC;
+    font-weight: 600;
+}
+.img img{
+    width: 140px;
+    height: 140px;
+}
+
+
+.lastPayment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.montCount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px
+}
+.icon i{
+    font-size: 25px;
+    color: #646669;
+}
+
+.resent-transactions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.numberBanas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.balans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 17px;
+}
+.iphoneIcon{
+    display: flex;
+    align-items: center;
+}
+.mobil{
+    padding: 13px 15px;
+    align-items: center;
+    background-color: #E5E1DA;
+    margin: 2px 9px 2px 1px ;
+    border-radius: 50%;
+}
+.iphoneIcon i{
+ background-color: #E5E1DA;
+    font-size: 28px;
+    color: #A555EC; 
+}
+.text{
+    margin: 15px;
+}
+.Date{
+    display: flex;
+    flex-direction: column;
+    margin: 4px 8px;
+}
+.money{
+    color: rgb(10, 192, 10);
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.azercell{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.country{
+    display: flex;
+    background-color: black;
+    padding: 3px 15px 0.3px 15px;
+    border-radius: 2.1rem;
+    margin: 17px 0px;
+    border: 1px solid #3d3c39;
+}
+.country div{
+    margin: 9px;
+}
+.country .flag {
+    
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+.country img{
+    width: 30px;
+    height: 30px;
+}
+.tools1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.tools1 div{
+ margin: 10px 4px;
+}
+.tools1 div a{
+    color: white;
+}
+.tools2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.tools2 div{
+ margin: 10px 4px;
+}
+.tools2 div a{
+    color: white;
+}
+
+.footer2{
+    margin-top: 0.5px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.footer2 .number{
+    display: flex;
+    flex-direction: column;
+}
+.numberBox{
+    background-color: #252627;
+    padding: 5px 2px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.numberBox i{
+    font-size: 30px;
+    margin: 8px 0 8x 4px;
+}
+.numberBox span{
+    font-size: 20px;
+    margin: 8px 0 8x 4px;
+}
+.Download{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.storeIcons {
+    display: flex;
+    align-items: start;
+
+}
+.storeIcons .icon{
+    background-color: #252627;
+    padding: 9px 8px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 20px 9px 0;
+}
+.storeIcons i{
+    color: white;
+    font-size: 28px;
+}
+.Media{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.Media .media-icon{
+    display: flex;
+    margin-top: 20px;
+
+
+}
+.media-icon .icon{
+    background-color: #252627;
+    margin: 10px 10px 10px 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.Media .media-icon .icon i{
+    color: white;
+    font-size: 28px;
+}
